@@ -1,0 +1,15 @@
+<!doctype html><html lang="fr"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex">
+<title>Paiement · Yelema</title><link rel="icon" href="img/yelema_y.svg"><link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Funnel+Display:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="app.css"><link rel="stylesheet" href="../finale.css"></head><body data-apres="0"><div class="bo"><nav><div class="m"><img src="img/yelema_y.svg" alt="">Back office</div><a class="on" href="bo-comptes.html">Comptes clients</a><a class="" href="bo-comptes.html">Paiements</a><a class="" href="#" data-toast="Hors parcours de démo">Experts</a><a class="" href="#" data-toast="Hors parcours de démo">Factures</a><a class="" href="#" data-toast="Hors parcours de démo">Réglages</a></nav><main>
+<a class="retour" href="bo-nouveau-2.html">← Experts et offre</a><h1>Nouveau compte</h1><p class="s">Unifood</p>
+<div class="etapes bo-e"><div class="num">Étape 3 sur 4 · Paiement</div><div class="barre"><i class="ok"></i><i class="ok"></i><i class="cur"></i><i class=""></i></div><div class="noms"><span class="ok">Entreprise</span><span class="ok">Experts et offre</span><span class="cur">Paiement</span><span class="">Vérifier et créer</span></div></div>
+<div class="bloc" style="max-width:760px"><h3>Paiement</h3>
+<div class="radio">
+<label class="on"><input type="radio" name="p" value="recu" checked><span><b>Déjà payé</b><small>L'espace se crée tout de suite.</small></span></label>
+<label><input type="radio" name="p" value="attente"><span><b>En attente de paiement</b><small>Le client reçoit la facture et le lien de paiement. L'espace s'ouvre à réception.</small></span></label>
+<label><input type="radio" name="p" value="post"><span><b>Postpayé</b><small>L'espace s'ouvre tout de suite, le montant reste dû.</small></span></label></div>
+<div data-si="recu" class="duo"><label class="champ"><span>Moyen</span><input value="Virement"></label><label class="champ"><span>Référence ou preuve</span><input value="VIR-SGCI-88213"></label></div>
+<div data-si="post" hidden><label class="champ"><span>Payé au plus tard le</span><input type="date" value="2026-10-31"></label></div>
+<div style="display:flex;justify-content:flex-end"><a class="btn" href="bo-nouveau-4.html">Continuer</a></div></div>
+</main></div><script src="app.js"></script><script src="../finale.js"></script></body></html>
